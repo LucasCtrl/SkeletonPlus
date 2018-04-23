@@ -25,6 +25,10 @@ li {
   margin-bottom: 0;
 }
 
+.italic {
+  font-style: italic;
+}
+
 /* Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .navbar {
@@ -32,7 +36,7 @@ li {
   padding: 0 100px;
   background-color: #fff;
   border-bottom: #E1E1E1 1px solid;
-  margin: 0 40px 30px 40px;
+  margin: 0 0px 0 0px;
 }
 
 .navbar a {
@@ -120,7 +124,7 @@ li {
   margin-right: 5px
 }
 
-.succes {
+.success {
   background-color: #00B16A
 }
 
@@ -156,15 +160,15 @@ li {
   margin: 0 10px;
 }
 
-.fa-discord-alt {
+.fa-discord-alt, .fa-discord {
   color: #7289DA;
 }
 
-.fa-mastodon {
+.fa-mastodon, .fa-mastodon-alt, .fa-mastodon-square {
   color: #2b90d9;
 }
 
-.fa-reddit {
+.fa-reddit, .fa-reddit-alien, .fa-reddit-square {
   color: #ff4500;
 }
 
@@ -172,11 +176,11 @@ li {
   color: #313739;
 }
 
-.fa-github {
+.fa-github, .fa-github-alt {
   color: #333;
 }
 
-.fa-lastfm {
+.fa-lastfm, .fa-lastfm-square {
   color: #d51007;
 }
 
@@ -184,18 +188,17 @@ li {
   color: #33A0FF;
 }
 
+.fa-facebook, .fa-facebook-messenger, .fa-facebook-official, .fa-facebook-square {
+  color: #4267B2;
+}
+
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* footer {
-  border-top: #E1E1E1 1px solid;
-  margin-top: 30px;
-  padding: 20px 50px;
-} */
 footer {
   padding: 30px 50px;
   background-color: #fff;
   border-top: #E1E1E1 1px solid;
-  margin: 30px 40px 0px 40px;
+  margin: 0px 0px 0px 0px;
 }
 footer a {
   color: inherit;
@@ -204,4 +207,11 @@ footer a {
 
 footer p {
   margin-bottom: 0;
+}
+
+/* Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+xmp {
+  font-size: 14px;
+  line-height: 20px;
 }

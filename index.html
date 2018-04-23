@@ -5,15 +5,236 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>SkeletonPlus</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.rawgit.com/MrDragonXM15/SkeletonPlus/master/dist/css/app.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="dist/css/app.css" />
 </head>
 <body>
-  <div class="container" style="margin-top: 150px;">
-    <h1>SkeletonPlus</h1>
-    <p>
-      A little framework build with <a rel="noopener noreferrer" target="_blank" href="http://getskeleton.com"><i class="fa fa-css3"></i> Skeleton</a>, <a rel="noopener noreferrer" target="_blank" href="https://necolas.github.io/normalize.css/"><i class="fa fa-css3"></i> Normalize.css</a> and <a rel="noopener noreferrer" target="_blank" href="https://forkawesome.github.io/"><i class="fa fa-fork-awesome"></i> Normalize.css</a>
-    </p>
-    <!-- <p>You can found the documentation here : <a rel="noopener noreferrer" target="_blank" href="#">https://lucasalt.fr/SkeletonPlus/fr/</a></p> -->
+  <!-- -------------------- NavBar ------------------------- -->
+  <nav class="navbar">
+    <a href="">
+      <li>SkeletonPlus</li>
+    </a>
+    <a rel="noopener noreferrer" href="https://github.com/mrdragonxm15/skeletonplus" target="_blank" style="float: right">
+      <li><i class="fa fa-github fa-lg"></i></li>
+    </a>
+  </nav>
+  <!-- -------------------- NavBar ------------------------- -->
+  <div class="row">
+    <div class="two columns" style="padding: 30px 0;">
+      <div class="container">
+      <ul style="position: fixed;">
+        <li>
+          <a href="#statusbar">Status Bar</a>
+          <ul>
+            <li><a href="#statusbar">Default</a></li>
+            <li><a href="#statusbarwithicon">With icon</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#cards">Cards</a>
+          <ul>
+            <li><a href="#cards">Default</a></li>
+            <li><a href="#cardsthumbnail">Thumbnail</a></li>
+            <li><a href="#cardsstatus">Status</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#socialicon">Social Icons</a>
+          <ul>
+            <li><a href="#socialicon">Usage</a></li>
+            <li><a href="#socialiconlist">Icon list</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div class="ten columns"style="border-left: #E1E1E1 1px solid; padding: 30px 0">
+      <div class="container">
+        <!-- Status -->
+        <div>
+          <h3 id="statusbar">Status Bar</h3>
+          <p>Status is available for any text length. Use the 4 different colors to add color to your project.</p>
+          <div class="row">
+            <div class="four columns">
+              <div style="margin-bottom: 5px" class="status success">Success</div>
+              <div style="margin-bottom: 5px" class="status primary">Primary</div>
+              <div style="margin-bottom: 5px" class="status warning">Warning</div>
+              <div class="status error">Error</div>
+            </div>
+            <div class="eight columns">
+              <xmp><div class="status success">Success</div>
+<div class="status primary">Primary</div>
+<div class="status warning">Warning</div>
+<div class="status error">Error</div>
+              </xmp>
+            </div>
+          </div>
+          <p id="statusbarwithicon">ForkAwesome icons are also supported by the bar. You can found all icons <a rel="noopener noreferrer" href="https://forkawesome.github.io/Fork-Awesome/" target="_blank"> here</a>.</p>
+          <div class="row">
+            <div class="eight columns">
+              <xmp>          <div class="status success">
+            <i class="fa fa-check"></i>fa fa-check
+          </div>
+          <div class="status primary">
+            <i class="fa fa-gear fa-spin"></i>fa fa-gear fa-spin
+          </div>
+          <div class="status warning">
+            <i class="fa fa-pause"></i>fa fa-pause
+          </div>
+          <div class="status error">
+            <i class="fa fa-ban"></i>fa fa-ban
+          </div>
+              </xmp>
+            </div>
+            <div class="four columns" style="margin-top: 80px">
+              <div style="margin-bottom: 5px" class="status success"><i class="fa fa-check"></i>fa fa-check</div>
+              <div style="margin-bottom: 5px" class="status primary"><i class="fa fa-gear fa-spin"></i>fa fa-gear fa-spin</div>
+              <div style="margin-bottom: 5px" class="status warning"><i class="fa fa-pause"></i>fa fa-pause</div>
+              <div class="status error"><i class="fa fa-ban"></i>fa fa-ban</div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div>
+          <h3 id="cards">Cards</h3>
+          <p>Cards are good alternatives to structure your website. The colours are based on skeleton. They are modular and allow a perfect integration on your site</p>
+          <div class="row">
+            <div class="four columns">
+              <div class="card" style="margin-top: 5px;">
+                <div class="card-content">
+                  <div class="card-title">Card Title</div>
+                  <div class="card-body">Officia duis nostrud dolor aliqua cupidatat velit elit nisi cupidatat.</div>
+                </div>
+              </div>
+            </div>
+            <div class="eight columns">
+              <xmp><div class="card">
+  <div class="card-content">
+    <div class="card-title">Card Title</div>
+    <div class="card-body">Card content</div>
   </div>
+</div>
+              </xmp>
+            </div>
+          </div>
+          <p id="cardsthumbnail">You can also add an image as thumbnail</p>
+          <div class="row">
+            <div class="eight columns">
+              <xmp>          <div class="card">
+            <img src="" alt="" class="card-image">
+            <div class="card-content">
+              <div class="card-body">Card content</div>
+            </div>
+          </div>
+              </xmp>
+            </div>
+            <div class="four columns">
+              <div class="card">
+                <img src="./dist/img/MOTD_personnalise.png" alt="Image" class="card-image">
+                <div class="card-content">
+                  <div class="card-body">Officia duis nostrud dolor aliqua cupidatat velit elit nisi cupidatat.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p id="cardsstatus">And card also support status bar</p>
+          <div class="row">
+            <div class="four columns">
+              <div class="card" style="margin-top: 20px;">
+                <div class="card-content">
+                  <div class="card-title">Card Title</div>
+                  <div class="card-body">Officia duis nostrud dolor aliqua cupidatat velit elit nisi cupidatat.</div>
+                </div>
+                <div class="card-status primary">
+                  <i class="fa fa-archive fa-fw"></i>
+                  fa fa-archive
+                </div>
+              </div>
+            </div>
+            <div class="eight columns">
+              <xmp><div class="card">
+  <div class="card-content">
+    <div class="card-title">Card Title</div>
+    <div class="card-body">Card content</div>
+  </div>
+  <div class="card-status primary">
+    <i class="fa fa-archive fa-fw"></i>Status text
+  </div>
+</div>
+              </xmp>
+            </div>
+          </div>
+        </div>
+        <!-- Social media -->
+        <div>
+          <h3 id="socialicon">Social Icons</h3>
+          <p>Some Fork Awesome icons are colored by me. The list of coloured icons is below. Don't hesitate to clone the repository to help me color others. It's very simple to use because the color is automatically applied on the icon. You can found all icons <a rel="noopener noreferrer" href="https://forkawesome.github.io/Fork-Awesome/" target="_blank"> here</a>.</p>
+          <xmp style="margin-top: -20px;">
+<i class"fa fa-reddit"></i>
+          </xmp>
+          <table class="u-full-width" id="socialiconlist">
+              <thead>
+                <tr>
+                  <th>Icon</th>
+                  <th>Fork Awesome ID</th>
+                  <th>Color</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th><i class="fa fa-2x fa-diaspora"></i></th>
+                  <th>fa-diaspora</th>
+                  <th style="background-color: #313739; color: white;">#313739</th>
+                </tr>
+                <tr>
+                  <th><i class="fa fa-2x fa-discord-alt"></i><br><i class="fa fa-2x fa-discord"></i></th>
+                  <th>fa-discord-alt<br>fa-discord</th>
+                  <th style="background-color: #7289DA; color: white;">#7289DA</th>
+                </tr>
+                <tr>
+                  <th><i class="fa fa-2x fa-facebook"></i><br><i class="fa fa-2x fa-facebook-messenger"></i><br><i class="fa fa-2x fa-facebook-official"></i><br><i class="fa fa-2x fa-facebook-square"></i></th>
+                  <th>fa-facebook<br>fa-facebook-messenger<br>fa-facebook-official<br>fa-facebook-square</th>
+                  <th style="background-color: #4267B2; color: white;">#4267B2</th>
+                </tr>
+                <tr>
+                  <th><i class="fa fa-2x fa-github"></i><br><i class="fa fa-2x fa-github-alt"></i></th>
+                  <th>fa-github<br>fa-github-alt</th>
+                  <th style="background-color: #333; color: white;">#333</th>
+                </tr>
+                <tr>
+                  <th><i class="fa fa-2x fa-keybase"></i></th>
+                  <th>fa-keybase</th>
+                  <th style="background-color: #33A0FF; color: white;">#33A0FF</th>
+                </tr>
+                <tr>
+                  <th><i class="fa fa-2x fa-lastfm"></i><br><i class="fa fa-2x fa-lastfm-square"></i></th>
+                  <th>fa-lastfm<br>fa-lastfm-square</th>
+                  <th style="background-color: #D51007; color: white;">#D51007</th>
+                </tr>
+                <tr>
+                  <th><i class="fa fa-2x fa-mastodon"></i><br><i class="fa fa-2x fa-mastodon-alt"></i><br><i class="fa fa-2x fa-mastodon-square"></i></th>
+                  <th>fa-mastodon<br>fa-mastodon-alt<br>fa-mastodon-square</th>
+                  <th style="background-color: #2B90D9; color: white;">#2B90D9</th>
+                </tr>
+                <tr>
+                  <th><i class="fa fa-2x fa-reddit"></i><br><i class="fa fa-2x fa-reddit-alien"></i><br><i class="fa fa-2x fa-reddit-square"></i></th>
+                  <th>fa-reddit<br>fa-reddit-alien<br>fa-reddit-square</th>
+                  <th style="background-color: #FF4500; color: white;">#FF4500</th>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------- Footer ------------------------- -->
+  <footer>
+    <p>
+      Made with <span class="italic">
+        <a rel="noopener noreferrer" href="https://getskeleton.com/" target="_blank">Skeleton <i class="fa fa-css3"></i></a>,
+        <a rel="noopener noreferrer" href="https://necolas.github.io/normalize.css/" target="_blank"> Normalize.css <i class="fa fa-css3"></i></a> and
+        <a rel="noopener noreferrer" href="https://forkawesome.github.io/Fork-Awesome/" target="_blank"> Fork Awesome <i class="fa fa-fork-awesome"></i></a>
+      </span>
+    </p>
+  </footer>
 </body>
 </html>

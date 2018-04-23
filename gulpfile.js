@@ -27,9 +27,14 @@ gulp.task('fonts', function () {
     .pipe(gulp.dest('dist/fonts'))
 })
 
-gulp.task('build', ['css-min', 'fonts'])
+gulp.task('img', function () {
+  return gulp.src('src/img/**/*')
+    .pipe(gulp.dest('dist/img'))
+})
 
-gulp.task('dev', ['css', 'fonts'], function () {
+gulp.task('build', ['css-min', 'fonts', 'img'])
+
+gulp.task('dev', ['css', 'fonts', 'img'], function () {
   refresh.listen()
   gulp.watch('src/css/**/*.css', ['css'])
 })
