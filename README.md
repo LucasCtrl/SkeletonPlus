@@ -6,8 +6,6 @@
 
 SkeletonPlus is a dead simple, responsive boilerplate to kickstart any responsive web projects.
 
-Check out [skeleton-plus here](https://goo.gl/25fZjC) for Documentation and Demo
-
 # What's in the project?
 
 The project contains a compiled `app.min.css` for using it directly and css files for those who would like to edit the files.
@@ -76,7 +74,7 @@ Skeleton-Plus supports all the browsers including the older versions of the list
 You can simply add the line inside the `<head>` tag. No need of downloading, no need of compiling. Just plug and play
 
 ```html
-<link rel="stylesheet" href="https://cdn.rawgit.com/oltmannsdaniel/skeleton-plus/master/css/skeleton-plus.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdn.rawgit.com/MrDragonXM15/SkeletonPlus/master/dist/css/app.min.css" type="text/css" />
 ```
 #### From files
 

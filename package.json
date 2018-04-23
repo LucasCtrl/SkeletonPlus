@@ -1,8 +1,7 @@
 {
   "name": "skeletonplus",
   "version": "1.0.0",
-  "description": "A little css framework",
-  "main": "gulpfile.js",
+  "description": "A little css boilerplate",
   "scripts": {
     "build": "gulp build",
     "dev": "gulp dev"
@@ -17,6 +16,13 @@
     "url": "https://github.com/MrDragonXM15/SkeletonPlus/issues"
   },
   "homepage": "https://github.com/MrDragonXM15/SkeletonPlus#readme",
+  "keywords": [
+    "skeleton",
+    "skeleton-plus",
+    "boilerplate",
+    "simple",
+    "css"
+  ],
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
