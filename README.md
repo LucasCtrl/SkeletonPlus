@@ -108,6 +108,15 @@ $ gulp build
 
 ---
 
+# Todo
+
+* Status bar color is very agressive ([Russian or American](https://flatuicolors.com/) design like semanticUI or Bulma)
+* Augment status bar height
+* `.rounded` or `.squared` for cards
+* Make it responsive
+
+---
+
 # Credits
 
 A project by **[LucasAlt](https://lucasalt.fr)**<br>
