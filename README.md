@@ -22,6 +22,8 @@ skeleton-plus/
 |       ├── forkawesome-webfont.ttf
 |       ├── forkawesome-webfont.woff
 |       └── forkawesome-webfont.woff2
+|       └── img
+|           └── MOTD_custom.png
 ├── src/
 │   ├── css/
 |   |   ├── fork-awesome.min.css
@@ -35,6 +37,8 @@ skeleton-plus/
 |       ├── forkawesome-webfont.ttf
 |       ├── forkawesome-webfont.woff
 |       └── forkawesome-webfont.woff2
+|       └── img
+|           └── MOTD_custom.png
 ├── .eslint.js
 ├── .gitignore
 ├── gulpfile.js
@@ -81,7 +85,7 @@ You can simply add the line inside the `<head>` tag. No need of downloading, no 
 You can simply add the line inside the `<head>` tag.
 
 ```html
-<link rel="stylesheet" type="text/css" media="screen" href="dist/css/app.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="dist/css/app.min.css" />
 ```
 
 ---
