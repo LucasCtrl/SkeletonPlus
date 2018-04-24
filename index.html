@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>SkeletonPlus</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="dist/css/app.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.rawgit.com/MrDragonXM15/SkeletonPlus/5ef6b46d/dist/css/app.min.css" />
 </head>
 <body>
   <!-- -------------------- NavBar ------------------------- -->
@@ -21,7 +21,7 @@
   <div class="row">
     <div class="two columns" style="padding: 30px 0;">
       <div class="container">
-      <ul style="position: fixed;">
+      <ul>
         <li>
           <a href="#statusbar">Status Bar</a>
           <ul>
@@ -54,37 +54,37 @@
         <!-- Status -->
         <div>
           <h3 id="statusbar">Status Bar</h3>
-          <p>Status is available for any text length. Use the 4 different colors to add color to your project.</p>
+          <p>Status is available for any text length. Use the 4 different colors to add color to your project. By default, the bars have square corners. But if you wish, you can add the class <code>status-rounded</code> to have rounded them.</p>
           <div class="row">
             <div class="four columns">
               <div style="margin-bottom: 5px" class="status success">Success</div>
               <div style="margin-bottom: 5px" class="status primary">Primary</div>
-              <div style="margin-bottom: 5px" class="status warning">Warning</div>
-              <div class="status error">Error</div>
+              <div style="margin-bottom: 5px" class="status status-rounded warning">Warning</div>
+              <div class="status status-rounded error">Error</div>
             </div>
             <div class="eight columns">
               <xmp><div class="status success">Success</div>
 <div class="status primary">Primary</div>
-<div class="status warning">Warning</div>
-<div class="status error">Error</div>
+<div class="status status-rounded warning">Warning</div>
+<div class="status status-rounded error">Error</div>
               </xmp>
             </div>
           </div>
           <p id="statusbarwithicon">ForkAwesome icons are also supported by the bar. You can found all icons <a rel="noopener noreferrer" href="https://forkawesome.github.io/Fork-Awesome/" target="_blank"> here</a>.</p>
           <div class="row">
             <div class="eight columns">
-              <xmp>          <div class="status success">
-            <i class="fa fa-check"></i>fa fa-check
-          </div>
-          <div class="status primary">
-            <i class="fa fa-gear fa-spin"></i>fa fa-gear fa-spin
-          </div>
-          <div class="status warning">
-            <i class="fa fa-pause"></i>fa fa-pause
-          </div>
-          <div class="status error">
-            <i class="fa fa-ban"></i>fa fa-ban
-          </div>
+              <xmp><div class="status success">
+  <i class="fa fa-check"></i>fa fa-check
+</div>
+<div class="status primary">
+  <i class="fa fa-gear fa-spin"></i>fa fa-gear fa-spin
+</div>
+<div class="status warning">
+  <i class="fa fa-pause"></i>fa fa-pause
+</div>
+<div class="status error">
+  <i class="fa fa-ban"></i>fa fa-ban
+</div>
               </xmp>
             </div>
             <div class="four columns" style="margin-top: 80px">
@@ -98,10 +98,16 @@
         <!-- Card -->
         <div>
           <h3 id="cards">Cards</h3>
-          <p>Cards are good alternatives to structure your website. The colours are based on skeleton. They are modular and allow a perfect integration on your site</p>
+          <p>Cards are good alternatives to structure your website. The colours are based on skeleton. They are modular and allow a perfect integration on your site. By default, all card have square corners. But if you wish, you can add the class <code>card-rounded</code> to have rounded them.</p>
           <div class="row">
             <div class="four columns">
-              <div class="card" style="margin-top: 5px;">
+              <div class="card" style="margin-top: 20px;">
+                <div class="card-content">
+                  <div class="card-title">Card Title</div>
+                  <div class="card-body">Officia duis nostrud dolor aliqua cupidatat velit elit nisi cupidatat.</div>
+                </div>
+              </div>
+              <div class="card card-rounded" style="margin-top: 5px;">
                 <div class="card-content">
                   <div class="card-title">Card Title</div>
                   <div class="card-body">Officia duis nostrud dolor aliqua cupidatat velit elit nisi cupidatat.</div>
@@ -115,18 +121,24 @@
     <div class="card-body">Card content</div>
   </div>
 </div>
+<div class="card card-rounded">
+  <div class="card-content">
+    <div class="card-title">Card Title</div>
+    <div class="card-body">Card content</div>
+  </div>
+</div>
               </xmp>
             </div>
           </div>
-          <p id="cardsthumbnail">You can also add an image as thumbnail</p>
+          <p id="cardsthumbnail">You can also add an image as thumbnail. If you have added <code>card-rounded</code> class, rounded corners will be automatically added.</p>
           <div class="row">
             <div class="eight columns">
-              <xmp>          <div class="card">
-            <img src="" alt="" class="card-image">
-            <div class="card-content">
-              <div class="card-body">Card content</div>
-            </div>
-          </div>
+              <xmp><div class="card">
+  <img src="" alt="" class="card-image">
+  <div class="card-content">
+    <div class="card-body">Card content</div>
+  </div>
+</div>
               </xmp>
             </div>
             <div class="four columns">
@@ -138,7 +150,7 @@
               </div>
             </div>
           </div>
-          <p id="cardsstatus">And card also support status bar</p>
+          <p id="cardsstatus">And card also support status bar. If you have added <code>card-rounded</code> class, rounded corners will be automatically added.</p>
           <div class="row">
             <div class="four columns">
               <div class="card" style="margin-top: 20px;">
