@@ -16,14 +16,14 @@ skeleton-plus/
 │   ├── css/
 |   |   ├── app.min.css
 |   |   └── app.min.css.map
-|   └── fonts/
-|       ├── forkawesome-webfont.eot
-|       ├── forkawesome-webfont.svg
-|       ├── forkawesome-webfont.ttf
-|       ├── forkawesome-webfont.woff
-|       └── forkawesome-webfont.woff2
-|       └── img
-|           └── MOTD_custom.png
+|   ├── fonts/
+|   |   ├── forkawesome-webfont.eot
+|   |   ├── forkawesome-webfont.svg
+|   |   ├── forkawesome-webfont.ttf
+|   |   ├── forkawesome-webfont.woff
+|   |   └── forkawesome-webfont.woff2
+|   └── img
+|       └── MOTD_custom.png
 ├── src/
 │   ├── css/
 |   |   ├── fork-awesome.min.css
@@ -31,14 +31,14 @@ skeleton-plus/
 |   |   ├── Normalize.css
 |   |   ├── Skeleton.css
 |   |   └── SkeletonPlusAddon.css
-|   └── fonts/
-|       ├── forkawesome-webfont.eot
-|       ├── forkawesome-webfont.svg
-|       ├── forkawesome-webfont.ttf
-|       ├── forkawesome-webfont.woff
-|       └── forkawesome-webfont.woff2
-|       └── img
-|           └── MOTD_custom.png
+|   ├── fonts/
+|   |   ├── forkawesome-webfont.eot
+|   |   ├── forkawesome-webfont.svg
+|   |   ├── forkawesome-webfont.ttf
+|   |   ├── forkawesome-webfont.woff
+|   |   └── forkawesome-webfont.woff2
+|   └── img
+|       └── MOTD_custom.png
 ├── .eslint.js
 ├── .gitignore
 ├── gulpfile.js
