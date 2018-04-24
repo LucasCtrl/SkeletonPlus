@@ -59,11 +59,15 @@ li {
 .card {
   background-color: #fff;
   border: #E1E1E1 1px solid;
-  border-radius: 5px;
   margin-bottom: 20px;
 }
+
 .card:last-child {
   margin-bottom: 0;
+}
+
+.card-rounded {
+  border-radius: 5px;
 }
 
 .card a {
@@ -74,8 +78,11 @@ li {
 .card-image {
   width: 100%;
   height: auto;
-  border-radius: 4px 4px 0px 0px;
   margin-bottom: -10px;
+}
+
+.card-rounded .card-image {
+  border-radius: 4px 4px 0px 0px;
 }
 
 .card-content {
@@ -95,11 +102,14 @@ li {
 }
 
 .card-status {
-  padding: 0 5px;
-  border-radius: 0px 0px 4px 4px;
+  padding: 2px 5px;
   display: block;
   color: rgba(0, 0, 0, .8);
   text-align: center;
+}
+
+.card-rounded .card-status {
+  border-radius: 0px 0px 4px 4px;
 }
 
 .card-status .fa {
@@ -109,7 +119,7 @@ li {
 /* Status Bar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .status {
-  padding: 0 5px;
+  padding: 2px 5px;
   border-radius: 3px;
   display: block;
   color: rgba(0, 0, 0, .8);
@@ -120,7 +130,7 @@ li {
   margin-right: 5px
 }
 
-.succes {
+.success {
   background-color: #00B16A
 }
 
