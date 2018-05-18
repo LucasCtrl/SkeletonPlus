@@ -1,8 +1,8 @@
 # SkeletonPlus
 
-[![GitHub issues](https://img.shields.io/github/issues/mrdragonxm15/SkeletonPlus.svg)](https://github.com/mrdragonxm15/SkeletonPlus/issues)
-[![GitHub stars](https://img.shields.io/github/stars/mrdragonxm15/SkeletonPlus.svg)](https://github.com/mrdragonxm15/SkeletonPlus/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/mrdragonxm15/SkeletonPlus.svg)](https://github.com/mrdragonxm15/SkeletonPlus/network)
+[![GitHub issues](https://img.shields.io/github/issues/LucasCtrl/SkeletonPlus.svg)](https://github.com/LucasCtrl/SkeletonPlus/issues)
+[![GitHub stars](https://img.shields.io/github/stars/LucasCtrl/SkeletonPlus.svg)](https://github.com/LucasCtrl/SkeletonPlus/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/LucasCtrl/SkeletonPlus.svg)](https://github.com/LucasCtrl/SkeletonPlus/network)
 
 SkeletonPlus is a dead simple, responsive boilerplate to kickstart any responsive web projects.
 
@@ -78,7 +78,7 @@ Skeleton-Plus supports all the browsers including the older versions of the list
 You can simply add the line inside the `<head>` tag. No need of downloading, no need of compiling. Just plug and play
 
 ```html
-<link rel="stylesheet" href="https://cdn.rawgit.com/MrDragonXM15/SkeletonPlus/5ef6b46d/dist/css/app.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdn.rawgit.com/LucasCtrl/SkeletonPlus/5ef6b46d/dist/css/app.min.css" type="text/css" />
 ```
 #### From files
 
@@ -131,4 +131,4 @@ ForkAwesome by [ForkAwesome](https://github.com/ForkAwesome)
 ---
 
 # License
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mrdragonxm15/SkeletonPlus/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/LucasCtrl/SkeletonPlus/master/LICENSE)
